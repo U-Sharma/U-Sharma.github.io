@@ -1,8 +1,8 @@
 .header {
   padding: 60px;
   text-align: center;
-  background: dimgray;
-  color: white;
+  background: papayawhip;
+  color: maroon;
   font-size: 30px;
 }
 
@@ -19,7 +19,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: papayawhip;
   position: relative;
   left: 50%;
 }
@@ -31,7 +31,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -40,7 +40,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: sandybrown;
 }
 
 p {
