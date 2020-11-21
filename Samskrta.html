@@ -43,12 +43,20 @@ Illustration of Mapping:
     <td> <i>O</i>+t, <i>S</i>+<i>O</i>+t, <i>O</i>+d, <i>S</i>+<i>O</i>+d, <i>O</i>+n</td>
   </tr>
   <tr>
+    <td> ट,ठ,ड,ढ (Redundancy)</td>
+    <td> q, <i>S</i>+q, w, <i>S</i>+w </td>
+  </tr>
+  <tr>
     <td> त,थ,द,ध,न</td>
     <td> t, <i>S</i>+t, d, <i>S</i>+d, n</td>
   </tr>
   <tr>
     <td> प,फ,ब,भ,म</td>
     <td> p, <i>S</i>+p, b, <i>S</i>+b, m</td>
+  </tr>
+  <tr>
+    <td> फ (Redundancy)</td>
+    <td> f </td>
   </tr>
   <tr>
     <td> य,र,ल,व</td>
@@ -59,15 +67,19 @@ Illustration of Mapping:
     <td> z, <i>O</i>+s, s, h</td>
   <tr>
     <td>  ा,ि,ी,</br> ु,ू,ृ,ॢ,</br> े,ै,ो,ौ</td>
-    <td> <i>O</i>+a, i, <i>O</i>+i </br> u, <i>O</i>+u, <i>O</i>+r, <i>O</i>+l </br> e, <i>O</i>+e, o, <i>O</i>+o</td>
+    <td> a, i, <i>O</i>+i </br> u, <i>O</i>+u, <i>O</i>+r, <i>O</i>+l </br> e, <i>O</i>+e, o, <i>O</i>+o</td>
   </tr>
   <tr>
-    <td> अ,आ,इ,ई,</br> उ,ऊ,ऋ,ऌ,</br> ए,ऐ,ओ,औ</td>
-    <td> <i>S</i>+a, <i>O</i>+<i>S</i>+a, <i>S</i>+i, <i>O</i>+<i>S</i>+i </br> <i>S</i>+u, <i>O</i>+<i>S</i>+u, <i>O</i>+<i>S</i>+r, <i>O</i>+<i>S</i>+l </br> <i>S</i>+e, <i>O</i>+<i>S</i>+e, <i>S</i>+o, <i>O</i>+<i>S</i>+o</td>
+    <td> अ,आ,इ,ई,</br> उ,ऊ,ऋ,ऌ,</br> ए,ऐ,ओ,औ</td>
+    <td>  <i>O</i>+<i>S</i>+a, <i>S</i>+a , <i>S</i>+i, <i>O</i>+<i>S</i>+i </br> <i>S</i>+u, <i>O</i>+<i>S</i>+u, <i>O</i>+<i>S</i>+r, <i>O</i>+<i>S</i>+l </br> <i>S</i>+e, <i>O</i>+<i>S</i>+e, <i>S</i>+o, <i>O</i>+<i>S</i>+o</td>
   </tr>
   <tr>
     <td> ः, ्, ं, ँ</td>
-    <td> <i>O</i>+h, a, <i>O</i>+m, <i>O</i>+<i>S</i>+m</td>
+    <td> <i>O</i>+h, <i>O</i>+a, <i>O</i>+m, <i>O</i>+<i>S</i>+m</td>
+  </tr>
+  <tr>
+    <td> ः, ् (Redundancy)</td>
+    <td> ;, ,(comma key) </td>
   </tr>
   <tr>
     <td> ॄ, ॣ, ॠ, ॡ,</br>ळ</td>
@@ -85,10 +97,14 @@ Illustration of Mapping:
     <td> ।(virāma),₹ (INR)</td>
     <td> . , <i>O</i>+4</td>
   </tr>
+  <tr>
+    <td> semicolon, dot, comma</td>
+    <td> <i>O</i>+;, <i>O</i>+., <i>O</i>+comma-key</td>
+  </tr>
 </table>
 <center>(<i>S</i>=shift, <i>O</i>=option)</center>
   <p>
-  I have built in some redundancies, for example both Shift+प and f represent फ.
+  I have built in some redundancies, for example both Shift+प and f represent फ. The roles of ् and ा (and thus अ and आ) have been exchanged, namely that ा is accessible with option key up, while ् needs option key down. This is because ा occurs much more frequently than ्, so ा has been made more readily accessible. 
 
 </br>
 <b>Download and Installation:</b></br>
